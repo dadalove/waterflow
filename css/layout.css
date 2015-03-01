@@ -1,0 +1,192 @@
+@import url("reset.css");
+
+/* nav */
+nav{
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 10;
+}
+.logo{
+  font-family: Oriya MN;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+.logo a{
+  text-decoration: none;
+  color: #CB486B;
+}
+
+.menu a{
+  display: block;
+  font-size: 16px;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #777;
+  font-weight: 900;
+}
+.menu a:hover{
+  background-color: #F2A25F;
+}
+/*  */
+
+/* header, login... */
+.home-header{
+  position: relative;
+}
+.home-header img{
+  width: 86%;
+  float: right;
+  -webkit-filter: sepia(75%);
+  -moz-filter: sepia(75%);
+  -ms-filter: sepia(75%);
+  -o-filter: sepia(75%);
+  filter: sepia(75%);
+}
+.header-nav{
+  position: absolute;
+  top: 19px;
+  right: 10px;
+}
+.header-nav li, .xx-nav li{
+  float: left;
+}
+.header-nav li a{
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.header-nav li a:hover{
+  text-decoration: underline;
+}
+.header-nav .signup{
+  border: 1px solid #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.header-nav .signup:hover{
+  text-decoration: none;
+  background-color: #aaa;
+}
+.home-header .arrow{
+  width: 0px;                                                   
+  height: 0px;
+  border-width: 40px 20px 20px 20px;                            
+  border-color: #CD6C6C transparent transparent transparent;       
+  border-style: solid;
+  position: absolute;
+  left: 55%;
+  margin-top: 650px;
+  -webkit-animation: aniName 1s infinite alternate;
+  -moz-animation: aniName 1s infinite alternate;
+  -ms-animation: aniName 1s infinite alternate;
+  -o-animation: aniName 1s infinite alternate;
+  animation: aniName 1s infinite alternate;
+}
+
+@-webkit-keyframes aniName{
+  0%{top: 10px;}
+  100%{ top: 40px;}
+}
+@-moz-keyframes aniName{
+  0%{top: 10px;}
+  100%{ top: 40px;}
+}
+@-ms-keyframes aniName{
+  0%{top: 10px;}
+  100%{ top: 40px;}
+}
+@-o-keyframes aniName{
+  0%{top: 10px;}
+  100%{ top: 40px;}
+}
+@keyframes aniName{
+  0%{top: 10px;}
+  100%{ top: 40px;}
+}
+/*  */
+
+/* xx */
+.xx{
+  height: 58px;
+  background-color: #fff;
+  float: right;
+}
+.btn-group{
+  margin: 14px 214px;
+  width: 350px;
+  float: right;
+}
+.btn-group .btn:first-child{
+  float: left;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  padding: .3em 1.7em;
+  border-radius: 6px 0 0 6px;
+}
+.btn-group .btn:last-child{
+  float: left;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  padding: .3em 1.7em;
+  border-radius: 0 6px 6px 0;
+}
+.btn-group .btn{
+  float: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  padding: .3em 1.7em;
+}
+.btn-group .btn:hover{
+  background-color: #111;
+  color: #fff; 
+}
+.btn-group a{
+  color: 777;
+}
+.xx-nav{
+  float: right;
+  margin: 20px 10px;
+}
+.xx-nav li a{
+  color: #aaa;
+  font-size: 14px;
+  text-decoration: none;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.xx-nav .signup:hover, .xx-nav li a:hover{
+  text-decoration: underline;
+  color: #a51;
+}
+.xx-container{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+}
+/* js */
+.xx.sticky{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+/*  */
+
+
+/*  */
+.test{
+  height: 800px;
+  background-color: #aaa;
+  clear: both;
+}
+
