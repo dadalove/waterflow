@@ -1,5 +1,9 @@
 @import url("reset.css");
 
+body{
+  min-width: 1024px;  
+}
+
 /* nav */
 nav{
   width: 200px;
@@ -184,9 +188,12 @@ nav{
 
 
 /*  */
-.test{
-  height: 800px;
-  background-color: #aaa;
+.photo{
   clear: both;
 }
-
+.gallery{
+  width: 1225px;
+  z-index: -1;
+  margin: auto 200px;
+  background-color: #eee;
+}
