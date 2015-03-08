@@ -78,7 +78,7 @@ nav{
   text-decoration: none;
   background-color: #aaa;
 }
-.home-header .arrow{
+/*.home-header .arrow{
   width: 0px;                                                   
   height: 0px;
   border-width: 40px 20px 20px 20px;                            
@@ -113,7 +113,7 @@ nav{
 @keyframes aniName{
   0%{top: 10px;}
   100%{ top: 40px;}
-}
+}*/
 /*  */
 
 /* xx */
@@ -197,3 +197,5 @@ nav{
   margin: auto 200px;
   background-color: #eee;
 }
+
+
