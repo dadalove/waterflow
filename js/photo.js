@@ -17,12 +17,20 @@ $(function () {
 
     $(function () {
     $('#gallery').each(function () {
-        var $container = $(this);
+        var $container = $(this),
+            $loadMoreButton = $('#load-more'),
+            $filter = $('#gallery-filter'),
+            addItemCount = 16,
+            added = 0,
+            allDate = [],
+            filteredDate = [];
+
         $container.masonry({
             columnWidth: 230,
             gutter: 10,
             itemSelector: '.gallery-item'
         });
+
         $.getJSON('./data/content.json', function (data) {
             var elements = [];
             $.each(data, function (i, item) {
